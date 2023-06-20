@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Press Start 2P', Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #333;
@@ -23,6 +25,7 @@ section {
   padding: 20px;
   background-color: #444;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 section h2 {
@@ -49,6 +52,7 @@ section h2 {
   transition: background-color 0.3s ease;
   margin: 0 10px;
   cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .install-button:hover {
@@ -56,8 +60,9 @@ section h2 {
 }
 
 .download-note {
-  font-size: 14px;
+  font-size: 12px;
   color: #ccc;
+  margin-top: 10px;
 }
 
 .popup {
@@ -90,6 +95,7 @@ section h2 {
   padding: 10px;
   text-align: center;
   z-index: 999;
+  font-size: 10px;
 }
 
 .cookie-banner p,
@@ -102,17 +108,19 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .image-container {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .image-container img {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   height: auto;
   border-radius: 5px;
   margin: 10px;
