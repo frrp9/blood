@@ -31,18 +31,25 @@ section h2 {
   margin-bottom: 10px;
 }
 
-.download-button {
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.install-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: #4caf50;
   color: #fff;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 25px;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  margin: 0 10px;
 }
 
-.download-button:hover {
+.install-button:hover {
   background-color: #45a049;
 }
 
