@@ -3,6 +3,7 @@
 <head>
   <title>Blood - Installation en Coop</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
@@ -20,11 +21,23 @@
       <li>Téléchargez le fichier d'installation du jeu Blood à partir du lien ci-dessous :</li>
     </ol>
     <div class="button-container">
-      <a href="lien_de_telechargement_du_jeu" class="install-button">Installer Blood</a>
-      <a href="#" class="install-button">Installer en ligne</a>
+      <a href="blood.zip" class="install-button">Installer Blood (ZIP)</a>
     </div>
     <p class="download-note">Note : Assurez-vous d'avoir suffisamment d'espace disque disponible pour l'installation du jeu.</p>
   </section>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <h3>Merci d'avoir installé le jeu !</h3>
+      <p>Profitez de Blood en coopération avec vos amis et éliminez tous les démons !</p>
+      <button onclick="closePopup()">Fermer</button>
+    </div>
+  </div>
+
+  <div id="cookie-banner" class="cookie-banner">
+    <p>Ce site utilise des cookies pour améliorer votre expérience. En poursuivant votre navigation, vous acceptez notre utilisation des cookies.</p>
+    <button onclick="acceptCookies()">J'accepte</button>
+  </div>
 
   <footer>
     <p>&copy; 2023 Blood Coop - Tous droits réservés. | Ce site utilise des cookies.</p>
